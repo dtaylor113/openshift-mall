@@ -1,0 +1,40 @@
+{
+  "name": "openshift-mall",
+  "version": "1.0.0",
+  "main": [
+    "dist/mall.es5.js"
+  ],
+  "dependencies": {
+    "angular": "1.5.11",
+    "angular-resource": "1.5.11",
+    "angular-sanitize": "1.5.11",
+    "angular-route": "1.5.11",
+    "angular-bootstrap": "0.14.3",
+    "angular-patternfly": "3.18.1",
+    "patternfly": "3.18.1",
+    "jquery": "2.1.4",
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.11",
+    "angular-scenario": "1.5.11"
+  },
+  "appPath": "app",
+  "resolutions": {
+    "angular-bootstrap": "0.14.3",
+    "d3": "3.5.17"
+  },
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "2.1.4"
+      }
+    },
+    "angular-patternfly": {
+      "main": [
+        "dist/styles/angular-patternfly.css",
+        "dist/angular-patternfly.js"
+      ]
+    }
+  }
+}
